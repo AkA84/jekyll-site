@@ -1,4 +1,4 @@
 ---
-name: Designmodo
+title: Designmodo
 image: designmodo
 ---

@@ -1,4 +1,4 @@
 ---
-name: Envato
+title: Envato
 image: envato
 ---

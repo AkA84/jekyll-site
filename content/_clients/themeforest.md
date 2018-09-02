@@ -1,4 +1,4 @@
 ---
-name: Theme Forest
+title: Theme Forest
 image: themeforest
 ---
