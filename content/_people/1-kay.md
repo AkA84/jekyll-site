@@ -1,6 +1,6 @@
 ---
-name: Kay Garland
-pic: 1
+title: Kay Garland
+image: kay.jpg
 position: Lead Designer
 social:
   - title: twitter
