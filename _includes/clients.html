@@ -5,7 +5,7 @@
                 {% for client in site.clients %}
                 <div class="col-md-3 col-sm-6">
                     <a href="#">
-                        <img src="img/{{ client.image }}" class="img-responsive img-centered" alt="{{ client.title }}">
+                        <img src="{{ client.image }}" class="img-responsive img-centered" alt="{{ client.title }}">
                     </a>
                 </div>
                 {% endfor %}

@@ -1,4 +1,4 @@
 ---
 title: Designmodo
-image: designmodo.jpg
+image: /img/designmodo.jpg
 ---

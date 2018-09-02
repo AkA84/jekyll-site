@@ -1,6 +1,6 @@
 ---
 title: Larry Parker
-image: larry.jpg
+image: /img/larry.jpg
 position: Lead Marketer
 social:
   - title: twitter

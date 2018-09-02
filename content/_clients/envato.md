@@ -1,4 +1,4 @@
 ---
 title: Envato
-image: envato.jpg
+image: /img/envato.jpg
 ---

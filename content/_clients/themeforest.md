@@ -1,4 +1,4 @@
 ---
 title: Theme Forest
-image: themeforest.jpg
+image: /img/themeforest.jpg
 ---

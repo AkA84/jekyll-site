@@ -1,6 +1,6 @@
 ---
 title: Diana Petersen
-image: diana.jpg
+image: /img/diana.jpg
 position: Lead Developer
 social:
   - title: twitter
