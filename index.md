@@ -1,4 +1,6 @@
 ---
 layout: default
-welcome_text: "Welcome To Our Studio!"
+main_heading: "Welcome To Our Studio!"
+sub_heading: "It's Nice To Meet You"
+call_to_action: "Tell Me More"
 ---
