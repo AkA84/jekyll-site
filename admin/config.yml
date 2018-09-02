@@ -69,8 +69,8 @@ collections:
               - { label: "LinkedIn", value: "linkedin" }
               - { label: "Google Plus", value: "google-plus" }
           - {label: "Url", name: "url", widget:"string"}
-  - name: "site-copy"
-    label: "Site copy"
+  - name: "site-text"
+    label: "Site text"
     files:
       - label: "Homepage"
         name: "homepage"
@@ -85,4 +85,3 @@ collections:
           - {label: "About", name: about_copy, widget: string}
           - {label: "Team", name: team_copy, widget: string}
           - {label: "Team (pt.2)", name: team_copy_2, widget: string}
-          - {label: "Call to action", name: call_to_action, widget: string}
