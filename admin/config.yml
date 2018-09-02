@@ -12,6 +12,15 @@ collections:
     fields:
       - {label: "Name", name: "title", widget: "string"}
       - {label: "Image", name: "image", widget: "image"}
+  - name: "services"
+    label: "Services"
+    folder: "content/_services"
+    create: true
+    slug: "{{index}}-{{slug}}"
+    fields:
+      - {label: "Name", name: "title", widget: "string"}
+      - {label: "Icon", name: "icon", widget: "string"}
+      - {label: "Description", name: "body", widget: "string"}
   - name: "timeline"
     label: "Timeline"
     folder: "content/_timeline"
