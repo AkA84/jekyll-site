@@ -1,4 +1,4 @@
 ---
 title: Creative Market
-image: creative-market
+image: creative-market.jpg
 ---
