@@ -1,12 +1,11 @@
 ---
 title: Kay Garland
-image: /img/kay.jpg
 position: Lead Designer
+image: /img/kay.jpg
 social:
-  - title: twitter
-    url: #
+  - title: linkedin
+    url: somelinkedinurl.com
   - title: facebook
-    url: #
   - title: stack-overflow
-    url: #
 ---
+
