@@ -12,3 +12,26 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Name", name: "title", widget: "string"}
       - {label: "Image", name: "image", widget: "image"}
+  - name: "people"
+    label: "Team Members"
+    folder: "content/_people"
+    create: true
+    slug: "{{index}}-{{slug}}"
+    fields:
+      - {label: "Full Name", name: "title", widget: "string"}
+      - {label: "Position", name: "position", widget: "string"}
+      - {label: "Image", name: "image", widget: "image"}
+      - label: Social Accounts
+        name: social
+        widget: list
+        fields:
+          - label: Name
+            name: title
+            widget: select
+            options:
+              - { label: "Twitter", value: "twitter" }
+              - { label: "Facebook", value: "facebook" }
+              - { label: "Stack Overflow", value: "stack-overflow" }
+              - { label: "LinkedIn", value: "linkedin" }
+              - { label: "Google Plus", value: "google-plus" }
+          - {label: "Url", name: "url", widget:"string"}
