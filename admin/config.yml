@@ -12,6 +12,16 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Name", name: "title", widget: "string"}
       - {label: "Image", name: "image", widget: "image"}
+  - name: "timeline"
+    label: "Timeline"
+    folder: "content/_timeline"
+    create: true
+    slug: "{{index}}-{{slug}}"
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Period", name: "period", widget: "string"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Description", name: "body", widget: "markdown"}
   - name: "people"
     label: "Team Members"
     folder: "content/_people"
