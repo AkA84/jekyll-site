@@ -1,5 +1,5 @@
 ---
-title: Creatives Markets
-image: /img/aetuts.jpg
+title: Creative Market
+image: /img/creative-market.jpg
 ---
 
