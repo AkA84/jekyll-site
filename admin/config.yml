@@ -69,3 +69,20 @@ collections:
               - { label: "LinkedIn", value: "linkedin" }
               - { label: "Google Plus", value: "google-plus" }
           - {label: "Url", name: "url", widget:"string"}
+  - name: "site-copy"
+    label: "Site copy"
+    files:
+      - label: "Homepage"
+        name: "homepage"
+        file: "index.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
+          - {label: "Main heading", name: main_heading, widget: string}
+          - {label: "Sub heading", name: sub_heading, widget: string}
+          - {label: "Call to action", name: call_to_action, widget: string}
+          - {label: "Services", name: services_copy, widget: string}
+          - {label: "Portfolio", name: portfolio_copy, widget: string}
+          - {label: "About", name: about_copy, widget: string}
+          - {label: "Team", name: team_copy, widget: string}
+          - {label: "Team (pt.2)", name: team_copy_2, widget: string}
+          - {label: "Call to action", name: call_to_action, widget: string}
