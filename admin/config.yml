@@ -8,7 +8,7 @@ collections:
     label: "Clients"
     folder: "content/_clients"
     create: true
-    slug: "{{index}}-{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Name", name: "title", widget: "string"}
       - {label: "Image", name: "image", widget: "image"}
@@ -16,7 +16,7 @@ collections:
     label: "Services"
     folder: "content/_services"
     create: true
-    slug: "{{index}}-{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Name", name: "title", widget: "string"}
       - {label: "Icon", name: "icon", widget: "string"}
@@ -25,7 +25,7 @@ collections:
     label: "Timeline"
     folder: "content/_timeline"
     create: true
-    slug: "{{index}}-{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Period", name: "period", widget: "string"}
@@ -50,7 +50,7 @@ collections:
     label: "Team Members"
     folder: "content/_people"
     create: true
-    slug: "{{index}}-{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Full Name", name: "title", widget: "string"}
       - {label: "Position", name: "position", widget: "string"}
